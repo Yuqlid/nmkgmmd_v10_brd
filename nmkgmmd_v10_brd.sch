@@ -1,0 +1,177 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev "ver1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STM32F303RETx U?
+U 1 1 58989F63
+P 8250 5300
+F 0 "U?" H 3150 7225 50  0000 L BNN
+F 1 "STM32F303RETx" H 13350 7225 50  0000 R BNN
+F 2 "LQFP64" H 13350 7175 50  0000 R TNN
+F 3 "" H 8250 5300 50  0000 C CNN
+	1    8250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5898A0B7
+P 8200 7450
+F 0 "#PWR?" H 8200 7200 50  0001 C CNN
+F 1 "GND" H 8200 7300 50  0000 C CNN
+F 2 "" H 8200 7450 50  0001 C CNN
+F 3 "" H 8200 7450 50  0001 C CNN
+	1    8200 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR?
+U 1 1 5898A1AB
+P 8200 3200
+F 0 "#PWR?" H 8200 3050 50  0001 C CNN
+F 1 "+3V3" H 8200 3340 50  0000 C CNN
+F 2 "" H 8200 3200 50  0001 C CNN
+F 3 "" H 8200 3200 50  0001 C CNN
+	1    8200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5898A2BF
+P 1700 4800
+F 0 "C?" H 1725 4900 50  0000 L CNN
+F 1 "C" H 1725 4700 50  0000 L CNN
+F 2 "" H 1738 4650 50  0001 C CNN
+F 3 "" H 1700 4800 50  0001 C CNN
+	1    1700 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5898A3A8
+P 1700 5100
+F 0 "C?" H 1725 5200 50  0000 L CNN
+F 1 "C" H 1725 5000 50  0000 L CNN
+F 2 "" H 1738 4950 50  0001 C CNN
+F 3 "" H 1700 5100 50  0001 C CNN
+	1    1700 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5898A3C8
+P 1450 4950
+F 0 "#PWR?" H 1450 4700 50  0001 C CNN
+F 1 "GND" H 1450 4800 50  0000 C CNN
+F 2 "" H 1450 4950 50  0001 C CNN
+F 3 "" H 1450 4950 50  0001 C CNN
+	1    1450 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 7300 8050 7350
+Wire Wire Line
+	8050 7350 8150 7350
+Wire Wire Line
+	8150 7350 8200 7350
+Wire Wire Line
+	8200 7350 8250 7350
+Wire Wire Line
+	8250 7350 8350 7350
+Wire Wire Line
+	8350 7350 8350 7300
+Wire Wire Line
+	8150 7300 8150 7350
+Connection ~ 8150 7350
+Wire Wire Line
+	8250 7300 8250 7350
+Connection ~ 8250 7350
+Wire Wire Line
+	8200 7450 8200 7350
+Connection ~ 8200 7350
+Wire Wire Line
+	8050 3300 8050 3250
+Wire Wire Line
+	8050 3250 8150 3250
+Wire Wire Line
+	8150 3250 8200 3250
+Wire Wire Line
+	8200 3250 8250 3250
+Wire Wire Line
+	8250 3250 8350 3250
+Wire Wire Line
+	8350 3250 8350 3300
+Wire Wire Line
+	8250 3300 8250 3250
+Connection ~ 8250 3250
+Wire Wire Line
+	8150 3300 8150 3250
+Connection ~ 8150 3250
+Wire Wire Line
+	8200 3200 8200 3250
+Connection ~ 8200 3250
+Wire Wire Line
+	1550 4800 1500 4800
+Wire Wire Line
+	1500 4800 1500 4950
+Wire Wire Line
+	1500 4950 1500 5100
+Wire Wire Line
+	1500 5100 1550 5100
+Wire Wire Line
+	1450 4950 1500 4950
+Connection ~ 1500 4950
+Wire Wire Line
+	3050 5000 2350 5000
+Wire Wire Line
+	2350 5000 2350 5100
+Wire Wire Line
+	2350 5100 2000 5100
+Wire Wire Line
+	3050 4900 2350 4900
+Wire Wire Line
+	2350 4900 2350 4800
+Wire Wire Line
+	2350 4800 2000 4800
+$EndSCHEMATC
