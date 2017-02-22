@@ -1,4 +1,4 @@
-update=2017/02/07 1:01:43
+update=2017/02/23 1:39:18
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=C:/Program Files/KiCad/share/kicad/library/stm32
+LibName30=stm32
