@@ -5142,7 +5142,7 @@
   )
 
   (module SMD_Packages:Allegro_A4957_QFN-24-1EP_4x4mm_Pitch0.5mm (layer F.Cu) (tedit 57E40EA1) (tstamp 58AF2F77)
-    (at 146.9 110.5 90)
+    (at 147 111 90)
     (descr "24-Lead Plastic Quad Flat, No Lead Package (MJ) - 4x4x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFN 0.5")
     (path /58CBAEB3/58CC4425)
