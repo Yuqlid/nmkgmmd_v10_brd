@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 5
 Title ""
 Date ""
 Rev "ver1.0"
@@ -1132,4 +1132,16 @@ Wire Wire Line
 	7650 4600 7650 4500
 Wire Wire Line
 	7650 4500 6750 4500
+$Sheet
+S 9500 5550 1200 800 
+U 58CBAEB3
+F0 "Driver1" 60
+F1 "Driver.sch" 60
+$EndSheet
+$Sheet
+S 7950 5550 1400 800 
+U 58CBB47A
+F0 "Driver2" 60
+F1 "Driver.sch" 60
+$EndSheet
 $EndSCHEMATC
