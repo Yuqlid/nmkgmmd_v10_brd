@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:nmkgmmd_v10_brd-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,6 +51,8 @@ $Comp
 L MCP16301 U2
 U 1 1 58C080DA
 P 5350 3200
+AR Path="/58C080DA" Ref="U2"  Part="1" 
+AR Path="/58C07DAD/58C080DA" Ref="U2"  Part="1" 
 F 0 "U2" H 5500 3600 60  0000 C CNN
 F 1 "MCP16301" H 5650 2800 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 5350 3200 60  0001 C CNN
@@ -72,6 +75,8 @@ $Comp
 L MCP16301 U3
 U 1 1 58C08389
 P 5350 5050
+AR Path="/58C08389" Ref="U3"  Part="1" 
+AR Path="/58C07DAD/58C08389" Ref="U3"  Part="1" 
 F 0 "U3" H 5500 5450 60  0000 C CNN
 F 1 "MCP16301" H 5650 4650 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 5350 5050 60  0001 C CNN
@@ -247,14 +252,14 @@ $EndComp
 Text HLabel 6900 3050 2    60   Output ~ 0
 VOUT_5V
 Wire Wire Line
-	5850 3050 6150 3050
+	5750 3050 6150 3050
 Wire Wire Line
 	5950 2950 5950 3050
 Connection ~ 5950 3050
 Wire Wire Line
 	5350 2550 6100 2550
 Wire Wire Line
-	5350 2550 5350 2700
+	5350 2550 5350 2800
 Wire Wire Line
 	5950 2650 5950 2550
 Connection ~ 5950 2550
@@ -266,14 +271,14 @@ Wire Wire Line
 Wire Wire Line
 	3850 3850 6800 3850
 Wire Wire Line
-	5350 3850 5350 3650
+	5350 3550 5350 3850
 Wire Wire Line
 	6500 3850 6500 3800
 Connection ~ 6050 3850
 Wire Wire Line
 	6500 3400 6500 3500
 Wire Wire Line
-	5850 3300 6300 3300
+	5750 3300 6300 3300
 Wire Wire Line
 	6300 3300 6300 3450
 Wire Wire Line
@@ -293,7 +298,7 @@ Wire Wire Line
 Connection ~ 6500 3850
 Connection ~ 6800 3050
 Wire Wire Line
-	2900 3050 4850 3050
+	2900 3050 4950 3050
 Wire Wire Line
 	4300 3850 4300 3600
 Connection ~ 5350 3850
@@ -301,7 +306,7 @@ Wire Wire Line
 	4300 3300 4300 3050
 Connection ~ 4300 3050
 Wire Wire Line
-	5850 4900 6150 4900
+	5750 4900 6150 4900
 Wire Wire Line
 	6050 4900 6050 5250
 Wire Wire Line
@@ -310,7 +315,7 @@ Connection ~ 5950 4900
 Wire Wire Line
 	5350 4400 6100 4400
 Wire Wire Line
-	5350 4400 5350 4550
+	5350 4400 5350 4650
 Wire Wire Line
 	5950 4500 5950 4400
 Connection ~ 5950 4400
@@ -327,7 +332,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 5250 6500 5350
 Wire Wire Line
-	5850 5150 6300 5150
+	5750 5150 6300 5150
 Wire Wire Line
 	6300 5150 6300 5300
 Wire Wire Line
@@ -343,10 +348,10 @@ Wire Wire Line
 	6050 5550 6050 5700
 Connection ~ 6500 5700
 Wire Wire Line
-	5350 5700 5350 5500
+	5350 5400 5350 5700
 Connection ~ 6050 5700
 Wire Wire Line
-	4050 4900 4850 4900
+	4050 4900 4950 4900
 Wire Wire Line
 	4300 4900 4300 5150
 Wire Wire Line
@@ -359,11 +364,11 @@ Wire Wire Line
 	4050 3050 4050 4900
 Connection ~ 4300 4900
 Wire Wire Line
-	4850 3300 4750 3300
+	4750 3300 4950 3300
 Wire Wire Line
 	4750 3300 4750 5150
 Wire Wire Line
-	4750 5150 4850 5150
+	4750 5150 4950 5150
 Connection ~ 4050 3050
 Connection ~ 4750 4500
 Wire Wire Line

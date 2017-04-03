@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:nmkgmmd_v10_brd-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
