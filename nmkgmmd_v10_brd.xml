@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>E:/kusakabe/KiCad/projects/nmkgmmd_v10_brd/nmkgmmd_v10_brd.sch</source>
-    <date>2017/04/07 13:10:33</date>
+    <source>D:/Yuki/kiCad_projects/nmkgmmd_v10_brd/nmkgmmd_v10_brd.sch</source>
+    <date>2017/04/19 2:39:06</date>
     <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1577,23 +1577,23 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="stm32">
-      <uri>E:\kusakabe\KiCad\kicad-library\library\stm32.lib</uri>
-    </library>
     <library logical="device">
-      <uri>E:\kusakabe\KiCad\kicad-library\library\device.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>E:\kusakabe\KiCad\kicad-library\library\conn.lib</uri>
+      <uri>D:\Yuki\kicad-library\library\device.lib</uri>
     </library>
     <library logical="transistors">
-      <uri>E:\kusakabe\KiCad\kicad-library\library\transistors.lib</uri>
+      <uri>D:\Yuki\kicad-library\library\transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>D:\Yuki\kicad-library\library\conn.lib</uri>
+    </library>
+    <library logical="stm32">
+      <uri>D:\Yuki\kicad-library\library\stm32.lib</uri>
     </library>
     <library logical="mylib">
-      <uri>E:\kusakabe\KiCad\my_kicad-library\mylib.lib</uri>
+      <uri>D:\Yuki\my_kicad-library\mylib.lib</uri>
     </library>
     <library logical="switches">
-      <uri>E:\kusakabe\KiCad\kicad-library\library\switches.lib</uri>
+      <uri>D:\Yuki\kicad-library\library\switches.lib</uri>
     </library>
   </libraries>
   <nets>
