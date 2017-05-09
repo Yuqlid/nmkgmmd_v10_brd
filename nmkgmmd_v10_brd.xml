@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:/Yuki/kiCad_projects/nmkgmmd_v10_brd/nmkgmmd_v10_brd.sch</source>
-    <date>2017/04/19 2:39:06</date>
+    <date>2017/05/09 9:26:03</date>
     <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -674,7 +674,7 @@
       <tstamp>58CC7357</tstamp>
     </comp>
     <comp ref="C19">
-      <value>470u</value>
+      <value>470n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Driver1/" tstamps="/58CBAEB3/"/>
@@ -989,7 +989,7 @@
       <tstamp>58CC7357</tstamp>
     </comp>
     <comp ref="C26">
-      <value>470u</value>
+      <value>470n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Driver2/" tstamps="/58CBB47A/"/>
@@ -1212,11 +1212,10 @@
     <libpart lib="transistors" part="BSS138">
       <aliases>
         <alias>2N7002</alias>
-        <alias>TP0610T</alias>
-        <alias>VP0610T</alias>
+        <alias>MMBF170</alias>
       </aliases>
-      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
-      <docs>http://www.fairchildsemi.com/ds/BS/BSS138.pdf</docs>
+      <description>50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
       <footprints>
         <fp>SOT?23*</fp>
       </footprints>
@@ -1577,8 +1576,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>D:\Yuki\kicad-library\library\device.lib</uri>
+    <library logical="mylib">
+      <uri>D:\Yuki\my_kicad-library\mylib.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>D:\Yuki\kicad-library\library\switches.lib</uri>
+    </library>
+    <library logical="stm32">
+      <uri>D:\Yuki\kicad-library\library\stm32.lib</uri>
     </library>
     <library logical="transistors">
       <uri>D:\Yuki\kicad-library\library\transistors.lib</uri>
@@ -1586,14 +1591,8 @@
     <library logical="conn">
       <uri>D:\Yuki\kicad-library\library\conn.lib</uri>
     </library>
-    <library logical="stm32">
-      <uri>D:\Yuki\kicad-library\library\stm32.lib</uri>
-    </library>
-    <library logical="mylib">
-      <uri>D:\Yuki\my_kicad-library\mylib.lib</uri>
-    </library>
-    <library logical="switches">
-      <uri>D:\Yuki\kicad-library\library\switches.lib</uri>
+    <library logical="device">
+      <uri>D:\Yuki\kicad-library\library\device.lib</uri>
     </library>
   </libraries>
   <nets>
